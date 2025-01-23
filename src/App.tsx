@@ -121,7 +121,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <a 
-                href="ttps://api.whatsapp.com/send?phone=5575982144159&text=Ol%C3%A1%2C%20Gostaria%20de%20contratar%20seu%20servi%C3%A7o%20%F0%9F%A5%B3" 
+                href="https://api.whatsapp.com/send?phone=5575982144159&text=Ol%C3%A1%2C%20Gostaria%20de%20contratar%20seu%20servi%C3%A7o%20%F0%9F%A5%B3" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 p-4 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
