@@ -6,9 +6,9 @@ function App() {
   
   const backgroundImages = [
     "https://i.postimg.cc/zBQC708P/arte-de-pinturas1-3550819673870237815-s2025-1-23-16-1-404-story.jpg",
-    "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1630346265771-f69474e3bf88?auto=format&fit=crop&q=80"
+    "https://i.postimg.cc/HjDQDnJw/Whats-App-Image-2025-01-23-at-4-30-14-PM-1.jpg",
+    "https://i.postimg.cc/pVg7XBzZ/Whats-App-Image-2025-01-23-at-4-30-13-PM.jpg",
+    "https://i.postimg.cc/5yMwDjQw/393383151-1559482134586443-4453835259962612586-n.jpg"
   ];
 
   useEffect(() => {
@@ -99,9 +99,9 @@ function App() {
           <h2 className="text-4xl font-bold text-center mb-16 text-purple-800">Galeria de Sorrisos</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
-              "https://images.unsplash.com/photo-1573504286795-36a4a38c52a9",
-              "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8",
-              "https://images.unsplash.com/photo-1596464716127-f2a82984de30",
+              "https://i.postimg.cc/5yMwDjQw/393383151-1559482134586443-4453835259962612586-n.jpg",
+              "https://i.postimg.cc/pVg7XBzZ/Whats-App-Image-2025-01-23-at-4-30-13-PM.jpg",
+              "https://i.postimg.cc/HjDQDnJw/Whats-App-Image-2025-01-23-at-4-30-14-PM-1.jpg",
               "https://images.unsplash.com/photo-1630346265771-f69474e3bf88",
               "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8",
               "https://images.unsplash.com/photo-1596464716127-f2a82984de30"
