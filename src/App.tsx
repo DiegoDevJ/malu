@@ -5,7 +5,7 @@ function App() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const backgroundImages = [
-    "https://images.unsplash.com/photo-1573504286795-36a4a38c52a9?auto=format&fit=crop&q=80",
+    "https://instagram.fval1-1.fna.fbcdn.net/v/t51.29350-15/473830329_3065323730295448_406749655250421363_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3ODIuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fval1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=utjf-9psJzQQ7kNvgG6zkny&_nc_gid=2d5ac4bd7c904dc3b9eb889c609c243b&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzU1MDgxOTY3Mzg3MDIzNzgxNQ%3D%3D.3-ccb7-5&oh=00_AYBwuRw2UtDMmnMEgpYgq8Jq-7pLa1yq0IYpzjvO9qMEBg&oe=679891D9&_nc_sid=10d13b",
     "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1630346265771-f69474e3bf88?auto=format&fit=crop&q=80"
@@ -45,8 +45,8 @@ function App() {
         
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
           <Palette className="w-16 h-16 mb-6 animate-bounce" />
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 font-['Pacifico']">Arte de Pinturas</h1>
-          <p className="text-xl md:text-2xl mb-8">Transformando seu evento em uma momento mágico</p>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 font-['Pacifico']">Artes de Pinturas</h1>
+          <p className="text-xl md:text-2xl mb-8">Transforme seu evento em uma momento mágico</p>
           <a href="#contato" className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100 transition-colors">
             Contrate
           </a>
