@@ -5,7 +5,7 @@ function App() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const backgroundImages = [
-    "https://instagram.fval1-1.fna.fbcdn.net/v/t51.29350-15/473830329_3065323730295448_406749655250421363_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3ODIuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fval1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=utjf-9psJzQQ7kNvgG6zkny&_nc_gid=2d5ac4bd7c904dc3b9eb889c609c243b&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzU1MDgxOTY3Mzg3MDIzNzgxNQ%3D%3D.3-ccb7-5&oh=00_AYBwuRw2UtDMmnMEgpYgq8Jq-7pLa1yq0IYpzjvO9qMEBg&oe=679891D9&_nc_sid=10d13b",
+    "https://postimg.cc/CBjnLCZj",
     "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1630346265771-f69474e3bf88?auto=format&fit=crop&q=80"
