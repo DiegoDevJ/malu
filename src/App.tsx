@@ -5,7 +5,7 @@ function App() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const backgroundImages = [
-    "https://postimg.cc/CBjnLCZj",
+    "https://i.postimg.cc/zBQC708P/arte-de-pinturas1-3550819673870237815-s2025-1-23-16-1-404-story.jpg",
     "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1630346265771-f69474e3bf88?auto=format&fit=crop&q=80"
