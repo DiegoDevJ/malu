@@ -100,11 +100,11 @@ function App() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
               "https://i.postimg.cc/5yMwDjQw/393383151-1559482134586443-4453835259962612586-n.jpg",
-              "https://i.postimg.cc/pVg7XBzZ/Whats-App-Image-2025-01-23-at-4-30-13-PM.jpg",
+              "https://i.postimg.cc/T2rjgjBQ/393452743-342469958252534-6229324179398503866-n.jpg",
               "https://i.postimg.cc/HjDQDnJw/Whats-App-Image-2025-01-23-at-4-30-14-PM-1.jpg",
-              "https://images.unsplash.com/photo-1630346265771-f69474e3bf88",
-              "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8",
-              "https://images.unsplash.com/photo-1596464716127-f2a82984de30"
+              "https://i.postimg.cc/J4MNqDL8/469203293-1115815356859628-2935535624301745611-n-1.jpg",
+              "https://i.postimg.cc/hPs93DDd/460960582-369834779532872-1303871862103987838-n.jpg",
+              "https://i.postimg.cc/W1f0T5Jp/460899131-963103725580701-8834799056649062177-n.jpg"
             ].map((url, i) => (
               <div key={i} className="relative aspect-square overflow-hidden rounded-lg hover:opacity-90 transition-opacity">
                 <img src={url} alt={`Pintura facial ${i + 1}`} className="w-full h-full object-cover" />
@@ -121,7 +121,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <a 
-                href="https://wa.me/5511999999999" 
+                href="ttps://api.whatsapp.com/send?phone=5575982144159&text=Ol%C3%A1%2C%20Gostaria%20de%20contratar%20seu%20servi%C3%A7o%20%F0%9F%A5%B3" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 p-4 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
@@ -130,12 +130,8 @@ function App() {
                 <span>Chame no WhatsApp</span>
               </a>
               <div className="flex items-center space-x-4">
-                <Mail className="w-6 h-6 text-purple-600" />
-                <span>contato@pinturasmagicas.com</span>
-              </div>
-              <div className="flex items-center space-x-4">
                 <Instagram className="w-6 h-6 text-purple-600" />
-                <span>@pinturasmagicas</span>
+                <span>@arte_de_pinturas1</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="w-6 h-6 text-purple-600" />
@@ -164,9 +160,9 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Heart className="w-5 h-5 text-pink-400" />
-            <span>Feito com amor para pequenos artistas</span>
+            <span>Feito com amor para artistas</span>
           </div>
-          <p className="text-purple-200">© 2024 Pinturas Mágicas. Todos os direitos reservados.</p>
+          <p className="text-purple-200">© 2024 Artes de Pinturas. Todos os direitos reservados.</p>
         </div>
       </footer>
 
