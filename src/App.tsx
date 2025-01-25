@@ -5,10 +5,10 @@ function App() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const backgroundImages = [
-    "https://images.unsplash.com/photo-1573504286795-36a4a38c52a9?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1630346265771-f69474e3bf88?auto=format&fit=crop&q=80"
+    "https://i.postimg.cc/zBQC708P/arte-de-pinturas1-3550819673870237815-s2025-1-23-16-1-404-story.jpg",
+    "https://i.postimg.cc/HjDQDnJw/Whats-App-Image-2025-01-23-at-4-30-14-PM-1.jpg",
+    "https://i.postimg.cc/pVg7XBzZ/Whats-App-Image-2025-01-23-at-4-30-13-PM.jpg",
+    "https://i.postimg.cc/5yMwDjQw/393383151-1559482134586443-4453835259962612586-n.jpg"
   ];
 
   useEffect(() => {
@@ -69,8 +69,8 @@ function App() {
         
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
           <Palette className="w-16 h-16 mb-6 animate-bounce" />
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 font-['Pacifico']">Pinturas Mágicas</h1>
-          <p className="text-xl md:text-2xl mb-8">Transformando sorrisos em obras de arte</p>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 font-['Pacifico']">Arte de Pinturas</h1>
+          <p className="text-xl md:text-2xl mb-8">Transforme seu evento em uma momento mágico</p>
           <a href="#contato" className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100 transition-colors">
             Agende sua Festa
           </a>
@@ -123,12 +123,12 @@ function App() {
           <h2 className="text-4xl font-bold text-center mb-16 text-purple-800 fade-up">Galeria de Sorrisos</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
-              "https://images.unsplash.com/photo-1573504286795-36a4a38c52a9",
-              "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8",
-              "https://images.unsplash.com/photo-1596464716127-f2a82984de30",
-              "https://images.unsplash.com/photo-1630346265771-f69474e3bf88",
-              "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8",
-              "https://images.unsplash.com/photo-1596464716127-f2a82984de30"
+                "https://images.unsplash.com/photo-1573504286795-36a4a38c52a9",
+                "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8",
+                "https://images.unsplash.com/photo-1596464716127-f2a82984de30",
+                "https://images.unsplash.com/photo-1630346265771-f69474e3bf88",
+                "https://images.unsplash.com/photo-1632167764165-74a3d686e9f8",
+                "https://images.unsplash.com/photo-1596464716127-f2a82984de30"
             ].map((url, i) => (
               <div key={i} className={`relative aspect-square overflow-hidden rounded-lg hover:opacity-90 transition-opacity fade-up stagger-delay-${(i % 3) + 1}`}>
                 <img src={url} alt={`Pintura facial ${i + 1}`} className="w-full h-full object-cover" />
@@ -145,7 +145,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6 fade-up">
               <a 
-                href="https://wa.me/5511999999999" 
+                href="https://api.whatsapp.com/send?phone=5575982144159&text=Ol%C3%A1%2C%20Gostaria%20de%20contratar%20seu%20servi%C3%A7o%20%F0%9F%A5%B3" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 p-4 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
@@ -154,14 +154,10 @@ function App() {
                 <span>Chame no WhatsApp</span>
               </a>
               <a 
-                href="https://wa.me/5511999999999" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center space-x-4 p-4 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
-              >
+              <div className="flex items-center space-x-4">
                 <Instagram className="w-6 h-6 text-purple-600" />
-                <span>Chame no WhatsApp</span>
-              </a>
+                <span>@arte_de_pinturas1</span>
+              </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="w-6 h-6 text-purple-600" />
                 <span>Santo Antônio de Jesus - BA</span>
