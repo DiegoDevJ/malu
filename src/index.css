@@ -48,6 +48,7 @@
 .paint-splash {
   animation: paint-splash 1s ease-out forwards;
 }
+
 /* Scroll Animations */
 .fade-up {
   opacity: 0;
