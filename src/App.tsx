@@ -45,7 +45,7 @@ function App() {
         
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
           <Palette className="w-16 h-16 mb-6 animate-bounce" />
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 font-['Pacifico']">Artes de Pinturas</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 font-['Pacifico']">Arte de Pinturas</h1>
           <p className="text-xl md:text-2xl mb-8">Transforme seu evento em uma momento mágico</p>
           <a href="#contato" className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100 transition-colors">
             Contrate
@@ -160,9 +160,9 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Heart className="w-5 h-5 text-pink-400" />
-            <span>Feito com amor para artistas</span>
+            <span>Feito com amor para malu</span>
           </div>
-          <p className="text-purple-200">© 2024 Artes de Pinturas. Todos os direitos reservados.</p>
+          <p className="text-purple-200">© 2024 Arte de Pinturas. Todos os direitos reservados.</p>
         </div>
       </footer>
 
